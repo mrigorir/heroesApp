@@ -1,27 +1,103 @@
-# HeroesApp
+# Heroes App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.0.1.
+> This app has a CRUD for heroes and uses json server as a developer test backend.
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Built With
 
-## Code scaffolding
+- Angular
+- TypeScript
+- Components
+- PrimeFlex
+- Angular Material
+- HTML
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Image Preview
+![Screenshot Main Page](./src/assets/images/capture.png)
 
-## Build
+## :star: [Live Demo]() :star:
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Getting Started
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+To get a local copy up and running follow these simple example steps:
 
-## Running end-to-end tests
+- On the project, GitHub page, navigate to the [main page of the repository](https://github.com/mrigorir/angular-pipes-app)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Click on a button named `code`
 
-## Further help
+- Copy the project URL as displayed on HTTPS tab
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+- If you're running the Windows Operating System, open your command prompt. On Linux, Open your terminal
+
+- Change the current working directory to the location where you want the cloned directory to be made. Leave it as it is if the current location is where you want the project to be.
+
+- Type `git clone`, and then paste the URL you copied in Step 3.<br>
+
+  `$ git clone git@github.com:mrigorir/angular-pipes-app.git` <em>Press Enter key</em><br>
+
+- Your local copy will be created.
+
+- Please note that you must have Git installed on your PC, this can be done [here](https://gist.github.com/derhuerst/1b15ff4652a867391f03)
+
+- After you get the project aiming to the desired directory, you need now to install dependencies by running npm install.
+
+
+### Github Actions
+
+To make sure the linters' checks using Github Actions work properly, you should follow the next steps:
+
+1. On your recently forked repo, enable the GitHub Actions in the Actions tab.
+   
+2. Create the `feature/branch` and push.
+   
+3. Start working on your milestone as usual.
+   
+4. Open a PR from the `feature/branch` when your work is done.
+
+### Usage 
+
+- Make sure you have npm and node installed.
+
+- I recommend the use of VS code as a code editor, but you can use any code editor.
+
+- Run in your terminal `npm install`
+
+- Then, run `npm run backend` to rise test backend from json server.
+
+- And finally run `npm start` OR `yarn start` to see the run the app in your default browser.
+
+- You should see the todo form ready to be used.
+
+- Add a name for the task owner (description is optional).
+
+- hit create button to create your todo.
+
+- You can either check it when DONE or remove it by hitting the trash icon.
+
+
+## Authors
+
+👤 **Marco Parra**
+
+- GitHub: [github](https://github.com/mrigorir)
+- Twitter: [twitter](https://twitter.com/marcoparra311)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/marco-alonso-parra/)
+
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## Acknowledgments
+  
+
+## 📝 License
+
+This project is [MIT](lic.url) licensed.
