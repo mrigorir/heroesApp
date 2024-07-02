@@ -8,6 +8,8 @@
 - Angular
 - TypeScript
 - Components
+- CRUD
+- Guard
 - PrimeFlex
 - Angular Material
 - HTML
@@ -22,7 +24,7 @@
 
 To get a local copy up and running follow these simple example steps:
 
-- On the project, GitHub page, navigate to the [main page of the repository](https://github.com/mrigorir/angular-pipes-app)
+- On the project, GitHub page, navigate to the [main page of the repository](https://github.com/mrigorir/angular-heroes-app)
 
 - Click on a button named `code`
 
@@ -34,7 +36,7 @@ To get a local copy up and running follow these simple example steps:
 
 - Type `git clone`, and then paste the URL you copied in Step 3.<br>
 
-  `$ git clone git@github.com:mrigorir/angular-pipes-app.git` <em>Press Enter key</em><br>
+  `$ git clone git@github.com:mrigorir/angular-heroes-app.git` <em>Press Enter key</em><br>
 
 - Your local copy will be created.
 
