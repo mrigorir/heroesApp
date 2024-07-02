@@ -1,8 +1,8 @@
 {
   "users": [
     {
-      "id": "1",
-      "usuario": "John Doe",
+      "id": 1,
+      "user": "John Doe",
       "email": "john.due@gmail.com"
     }
   ],
@@ -10,20 +10,18 @@
     {
       "id": "dc-batman",
       "superhero": "Batman",
-      "publisher": "DC-COMICS",
+      "publisher": "DC Comics",
       "alter_ego": "Bruce Wayne",
       "first_appearance": "Detective Comics #27",
-      "characters": "Bruce Wayne",
-      "alt_img": null
+      "characters": "Bruce Wayne"
     },
     {
       "id": "dc-superman",
       "superhero": "Superman",
-      "publisher": "DC-COMICS",
+      "publisher": "DC Comics",
       "alter_ego": "Kal-El",
       "first_appearance": "Action Comics #1",
-      "characters": "Kal-El",
-      "alt_img": null
+      "characters": "Kal-El"
     },
     {
       "id": "dc-flash",
@@ -36,11 +34,10 @@
     {
       "id": "dc-green",
       "superhero": "Green Lantern",
-      "publisher": "DC-COMICS",
+      "publisher": "DC Comics",
       "alter_ego": "Alan Scott",
       "first_appearance": "All-American Comics #16",
-      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz",
-      "alt_img": null
+      "characters": "Alan Scott, Hal Jordan, Guy Gardner, John Stewart, Kyle Raynor, Jade, Sinestro, Simon Baz"
     },
     {
       "id": "dc-arrow",
@@ -81,6 +78,14 @@
       "alter_ego": "Dan Garret",
       "first_appearance": "Mystery Men Comics #1",
       "characters": "Dan Garret, Ted Kord, Jaime Reyes"
+    },
+    {
+      "id": "dc-black",
+      "superhero": "Black Canary",
+      "publisher": "DC Comics",
+      "alter_ego": "Dinah Drake",
+      "first_appearance": "Flash Comics #86",
+      "characters": "Dinah Drake, Dinah Lance"
     },
     {
       "id": "marvel-spider",
@@ -137,6 +142,14 @@
       "alter_ego": "Matthew Michael Murdock",
       "first_appearance": "Daredevil #1",
       "characters": "Matthew Michael Murdock"
+    },
+    {
+      "id": "marvel-hawkeye",
+      "superhero": "Hawkeye",
+      "publisher": "Marvel Comics",
+      "alter_ego": "Clinton Francis Barton",
+      "first_appearance": "Tales of Suspense #57",
+      "characters": "Clinton Francis Barton"
     },
     {
       "id": "marvel-cyclops",

@@ -13,15 +13,22 @@
         [routerLink]="item.url"
         (click)="sidenav.toggle()"
       >
-      <mat-icon matListItemIcon>{{ item.icon }}</mat-icon>
-      {{ item.label }}
+        <mat-icon matListItemIcon>{{ item.icon }}</mat-icon>
+        {{ item.label }}
       </mat-list-item>
     </mat-nav-list>
   </mat-sidenav>
-  <mat-toolbar color="primary">
+  <mat-toolbar color="primary" class="flex justify-content-between">
     <button mat-icon-button (click)="sidenav.toggle()">
       <mat-icon>menu</mat-icon>
     </button>
+    <div>
+      <span>{{ user?.email }}</span>
+      <button mat-button (click)="onLogout()">
+        <mat-icon matListItemIcon>logout</mat-icon>
+        Logout
+      </button>
+    </div>
   </mat-toolbar>
   <div class="container pt-2 pl-2">
     <router-outlet></router-outlet>
