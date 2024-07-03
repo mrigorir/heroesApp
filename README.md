@@ -17,7 +17,7 @@
 ## Image Preview
 ![Screenshot Main Page](./src/assets/images/capture.png)
 
-## :star: [Live Demo]() :star:
+## :star: [Live Demo](https://effervescent-pegasus-24a9a4.netlify.app) :star:
 
 
 ## Getting Started
